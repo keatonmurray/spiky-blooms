@@ -1,0 +1,38 @@
+/** Mobile Responsive View */
+
+@media (max-width: 668px) {
+
+    .container {
+        margin: 0 !important;
+    }
+
+    .heading {
+        text-align: center;
+        margin-left: unset !important;
+    }
+
+    .grid {
+        display: unset !important;
+        justify-content: center !important;
+        gap: unset !important;
+        text-align: center;
+    }
+
+    .flex-container {
+        margin-top: 85px;
+    }
+
+    .nav-btn .button {
+        margin-right: unset !important;
+    }
+
+
+    .products-grid {
+        display: unset !important;
+    }
+
+    .products-grid img {
+        height: 420px !important;
+        width: auto;
+    }
+}
